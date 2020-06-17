@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <label for="">Name <span>*</span></label>
+        <br>
+        <input type="text" name="" id="first-name" placeholder="Vorname" required>
+        <input type="text" name="" id="last-name" placeholder="Nachname" required>
+        <br>
+        <label for="">Email <span>*</span></label>
+        <br>
+        <input type="email" name="" id="email" required>
+        <br>
+        <label for="">Thema</label>
+        <br>
+        <select id="thema">
+            <option value="Advertise">Advertise</option>
+            <option value="Partnership">Partnership</option>
+            <option value="General">General</option>
+        </select>
+        <br>
+        <label for="">Nachricht <span>*</span></label>
+        <br>
+        <textarea name="" id="nachricht" cols="30" rows="10" maxlength="10"></textarea>
+        <br>
+        <input type="button" value="Submit" onclick="submitIt()">
+    </form>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
